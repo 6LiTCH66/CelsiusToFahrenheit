@@ -9,8 +9,12 @@ def celsiusToFahrenheit(celsius):
         return False
         
 
+def main():
+    while True:
+        celsius = input("Temperature in C = ")
+        if celsiusToFahrenheit(celsius):
+            break
 
-while True:
-    celsius = input("Temperature in C = ")
-    if celsiusToFahrenheit(celsius):
-        break
+if __name__ == "__main__":
+    main()
+
